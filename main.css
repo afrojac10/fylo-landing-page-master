@@ -1,0 +1,123 @@
+@font-face{font-family:'Raleway';src:url("./Fonts/RaleWay/Raleway-ExtraBold.ttf")}
+
+@font-face{font-family:'Open Sans';src:url("Fonts/OpenSans/OpenSans-Regular.woff");
+font-weight: 400,700;
+font-size: 18px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "Raleway";
+    color:hsl(243, 87%, 12%);
+    font-size:20px;
+}
+
+p{
+    font-family:"OpenSans";
+    color:hsl(0, 0%, 50%);
+    font-size:17px;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 30px;
+    padding: 25px;
+}
+
+.pp{
+    position: absolute;
+    left: 250px;
+    right: 0;
+    display: flex;
+}
+
+
+i{
+    padding: 11px;
+    color:#fff;
+}
+
+.logo{
+    width:90px;
+}
+
+.heroImg{
+    width: 200px;
+    margin-left:75px;
+    margin-top:135px;
+}
+
+
+.pix{
+    background-image: url("./images/bg-intro.svg");
+    background-repeat: no-repeat;
+    background-clip: 100% 100%;
+    height:461px;
+}
+
+.sec2,.sec3{
+    margin: 0 auto;
+    padding: 0 50px;
+    position: relative;
+    bottom: 35px;
+}
+
+
+.f-text{
+    text-align: left;
+    width: 250px;
+    line-height: 25px;
+    margin-bottom:10px;
+}
+
+.sec3{
+    margin-top:30px; 
+}
+
+label{font-family: "Raleway";
+    color:hsl(243, 87%, 12%);
+    font-size:13px;
+    margin-bottom:10px;
+    display: block;
+}
+
+input[type="email"]{
+    padding: 5px;
+    width: 250px;
+    border-radius: 2px;
+    border:#fff 1px solid;
+    -webkit-box-shadow:1px 1px 10px 0.5px rgb(226, 226, 226) /*rgba(226, 236, 240, 0.308)*/;
+}
+
+input[type="submit"]{
+    border: none;
+    margin-top: 15px;
+    background: hsl(163, 95%, 43%);
+    padding: 10px;
+    display: block;
+    width: 120px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 12px;
+}
+footer a{
+   text-align: right;
+   margin: 20px;
+   padding-right: 10px;
+   display: block;
+   color: hsl(243, 87%, 12%);
+   text-decoration: underline;
+}
